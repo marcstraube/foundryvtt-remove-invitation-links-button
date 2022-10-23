@@ -1,0 +1,34 @@
+{
+    "name": "remove-invitation-links-button",
+    "title": "Remove Invitation Links Button",
+    "description": "A small module to remove the \"Invitation Links\" button from the \"Game Settings\" sidebar tab.",
+    "license": "GPL-3.0-only",
+    "library": "false",
+    "authors": [
+        {
+            "name": "Marc Straube",
+            "email": "email@marcstraube.de",
+            "discord": "durag-c-walker#8327",
+            "url": "https://github.com/marcstraube"
+        }
+    ],
+    "version": "This is auto replaced",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10",
+        "maximum": "10"
+    },
+    "scripts": [
+        "scripts/module.js"
+    ],
+    "relationships": {},
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced",
+    "bugs": "This is auto replaced",
+    "changelog": "This is auto replaced",
+    "readme":"This is auto replaced",
+    "flags": {
+        "allowBugReporter": true
+    }
+}
