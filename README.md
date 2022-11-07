@@ -10,6 +10,7 @@
 
 A simple module to remove the **Invitation Links** button from the **Game Settings** sidebar tab.
 
+![FVTT Icon](images/remove-invitation-links-button.webp)
 
 ## Installation
 
