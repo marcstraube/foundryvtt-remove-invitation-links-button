@@ -1,13 +1,18 @@
-Hooks.once("ready", () => {
-    ui.sidebar.element[0].querySelector("button[data-action='invitations']").style.display = "none";
-});
-
 Hooks.once('libChangelogsReady', function () {
     libChangelogs.register(
         "remove-invitation-links-button",
         "<ul>" +
-        "<li>Initial release of <strong>Remove Invitation Links Button</strong> module.</li>" +
+        "<li>Fix deprecated field warning.</li>" +
+        "<li>Fix issue that does not remove button Remove invitation links button via stylesheet instead of script to fix timing issue.</li>" +
+        "<li>Compatibility fix for TidyUI.</li>" +
         "</ul>",
-        "major"
+        "minor"
     );
+});
+
+Hooks.on("renderSidebarTab", function (application, html) {
+    if (typeof game.modules.get("tidy-ui_game-settings") !== "undefined"
+        && game.modules.get("tidy-ui_game-settings").active) {
+        $(html).find("div#settings-access button[data-action='logout']").addClass("tidyui-fix");
+    }
 });

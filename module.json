@@ -1,5 +1,5 @@
 {
-    "name": "remove-invitation-links-button",
+    "id": "remove-invitation-links-button",
     "title": "Remove Invitation Links Button",
     "description": "A small module to remove the \"Invitation Links\" button from the \"Game Settings\" sidebar tab.",
     "license": "GPL-3.0-only",
@@ -20,6 +20,9 @@
     },
     "scripts": [
         "scripts/module.js"
+    ],
+    "styles": [
+        "styles/style.css"
     ],
     "relationships": {},
     "url": "This is auto replaced",
