@@ -14,13 +14,9 @@
     ],
     "version": "This is auto replaced",
     "compatibility": {
-        "minimum": "10",
-        "verified": "12",
-        "maximum": "12"
+        "minimum": "13",
+        "verified": "13"
     },
-    "scripts": [
-        "scripts/module.js"
-    ],
     "styles": [
         "styles/style.css"
     ],
@@ -30,8 +26,5 @@
     "download": "This is auto replaced",
     "bugs": "This is auto replaced",
     "changelog": "This is auto replaced",
-    "readme":"This is auto replaced",
-    "flags": {
-        "allowBugReporter": true
-    }
+    "readme":"This is auto replaced"
 }

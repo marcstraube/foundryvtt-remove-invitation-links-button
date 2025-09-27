@@ -1,8 +1,3 @@
-#settings.settings-sidebar button[data-action="invitations"] {
+#settings.settings-sidebar button[data-app="invitations"] {
     display: none;
-}
-
-/* Compatibility fix for usage with TidyUI */
-#settings button[data-action="logout"].tidyui-fix {
-    margin-top: unset !important;
 }
