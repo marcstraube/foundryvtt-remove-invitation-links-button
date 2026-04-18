@@ -1,7 +1,7 @@
 # Remove Invitation Links Button
 
-![Downloads (all)](https://img.shields.io/github/downloads/marcstraube/foundryvtt-remove-invitation-links-button/total?color=2b82fc&label=Downloads%20%28all%29&style=for-the-badge)
-![Downloads (latest release)](https://img.shields.io/github/downloads/marcstraube/foundryvtt-remove-invitation-links-button/latest/total?label=Downloads%20%28latest%20release%29&style=for-the-badge)
+![Downloads (all)](https://img.shields.io/github/downloads/marcstraube/foundryvtt-remove-invitation-links-button/module.zip?color=2b82fc&label=Downloads%20%28all%29&style=for-the-badge)
+![Downloads (latest release)](https://img.shields.io/github/downloads/marcstraube/foundryvtt-remove-invitation-links-button/latest/module.zip?label=Downloads%20%28latest%20release%29&style=for-the-badge)
 ![Latest Release](https://img.shields.io/github/v/release/marcstraube/foundryvtt-remove-invitation-links-button?label=Release&prefix=v&query=$.version&colorB=red&style=for-the-badge)
 ![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarcstraube%2Ffoundryvtt-remove-invitation-links-button%2Fmaster%2Fmodule.json&label=Foundry&query=$.compatibility.minimum&colorB=orange&style=for-the-badge)
 [![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fremove-invitation-links-button&colorB=006400&style=for-the-badge)](https://forge-vtt.com/bazaar#package=remove-invitation-links-button)
